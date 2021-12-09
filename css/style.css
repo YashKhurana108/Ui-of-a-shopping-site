@@ -1,0 +1,93 @@
+.flex-all-centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  height: 10vh;
+  background-color: #2874f0;
+  color: white;
+}
+header {
+  color: white;
+  background-color: #2874f0;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 102px;
+  padding: 15px;
+}
+nav ul li {
+  list-style: none;
+  padding: 0px 3px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a :hover {
+  font-weight: bolder;
+}
+.search {
+  align-items: center;
+  display: flex;
+}
+.search input {
+  width: 30vw;
+  height: 18px;
+  margin: 0px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+nav ul {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.slider {
+  margin: auto;
+  width: 86vw;
+  overflow: hidden;
+}
+.slider img {
+  width: 85vw;
+  height: 210px;
+  margin-top: 9px;
+}
+.container {
+  min-height: calc(100vh - 70px - 10vh);
+}
+
+.card {
+  max-width: 91vw;
+  margin: 37px auto;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+}
+.card h3 {
+  margin: 0px 25px;
+  width: 16vw;
+}
+
+.card-item img {
+  margin: 9px 29px;
+}
+.lines {
+  margin: 0px 66px;
+  width: 8vw;
+}
